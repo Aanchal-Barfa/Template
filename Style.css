@@ -91,6 +91,19 @@ img {
     align-items: center;
     padding-top: 5%;
 }
+.statisticsCard{
+    color: white;
+    text-align: center; 
+    justify-content: center; 
+    padding: 10px;
+    font-size:xx-large; 
+    font-weight: 900; 
+    border-radius: 50%; 
+    width: 150px;
+    height: 150px; 
+    border: 2px solid white; 
+    background-color: #12122e;
+}
 .TextCenter{
     text-align: center;
     justify-content: center;
@@ -197,8 +210,9 @@ ul li a{
             
         }
         .backgroundImage{
-            min-height: 30vh; 
+            min-height: 20vh; 
             background-size: 100% 100%; 
             background-repeat: no-repeat;
         }
+
 }
