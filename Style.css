@@ -185,6 +185,11 @@ ul li a{
             height: 21px;
             
         }
+        .backgroundImage{
+            min-height: 20vh; 
+            background-size: 100% 100%; 
+            background-repeat: no-repeat;
+        }
 }
 @media screen and (max-width:450px) {
     .img2{
