@@ -139,11 +139,13 @@ input{
     font-weight:bold;
 }
 .griddisplay{
-    height: 400px;
+    height: 430px;
     background-color: black;
     color: white;
     display: grid;
     grid-template-columns: 4fr 2fr 2fr 2fr;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 .Icons{
     
