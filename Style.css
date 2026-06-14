@@ -196,4 +196,9 @@ ul li a{
             height: 21px;
             
         }
+        .backgroundImage{
+            min-height: 30vh; 
+            background-size: 100% 100%; 
+            background-repeat: no-repeat;
+        }
 }
