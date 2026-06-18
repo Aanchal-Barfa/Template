@@ -29,6 +29,7 @@
     margin-top: 5px;
     padding: 8px;
     margin-left: 20%;
+    margin-bottom: 5%
 }
 .Menutitle{
     color: white;
@@ -70,6 +71,7 @@ img {
 .img2{
     width: 400px;
     height: 400px;
+    margin-bottom: 7%;
 }
 .btn2{
     background-color: #08083c;
@@ -161,10 +163,24 @@ ul li a{
     color: white; 
     
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
+    .btn1{
+        margin-bottom: 2%;
+    }
 
     .group{
                 grid-template-columns: 1fr;
+    }
+    .btn2{
+        margin:4% ;
+        display: block;
+        margin: 0 auto;
+    }
+    .img2{
+                width: 100px;
+                height: 100px;
+                /* margin: 10px; */
+                margin-top: 3%;
     }
         
     .subscribebox{
@@ -194,10 +210,16 @@ ul li a{
         }
 }
 @media screen and (max-width:450px) {
+    .btn2{
+        margin:4% ;
+        display: block;
+        margin: 0 auto;
+    }
     .img2{
                 width: 100px;
                 height: 100px;
                 /* margin: 10px; */
+                margin-top: 3%;
     }
     .griddisplay{
         grid-template-columns: 1fr;
