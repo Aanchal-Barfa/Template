@@ -164,6 +164,9 @@ ul li a{
     
 }
 @media screen and (max-width: 700px){
+    .headingcenter{
+        font-size: 40px;
+    }
     .btn1{
         margin-bottom: 2%;
     }
@@ -210,6 +213,9 @@ ul li a{
         }
 }
 @media screen and (max-width:450px) {
+    .headingcenter{
+        font-size: 40px;
+    }
     .btn2{
         display: block;
         margin: 0 auto;
