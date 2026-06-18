@@ -172,9 +172,9 @@ ul li a{
                 grid-template-columns: 1fr;
     }
     .btn2{
-        margin:4% ;
         display: block;
         margin: 0 auto;
+        margin-bottom: 5%;
     }
     .img2{
                 width: 100px;
@@ -211,7 +211,6 @@ ul li a{
 }
 @media screen and (max-width:450px) {
     .btn2{
-        margin:4% ;
         display: block;
         margin: 0 auto;
     }
