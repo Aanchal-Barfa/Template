@@ -4,6 +4,10 @@
 .wlogo{
     padding: 5px;
 }
+a:hover{
+    color: brown !important;
+    text-decoration: underline;
+}
 .backImg{
     min-height: 80vh; 
     background-size: 100% 100%; 
@@ -30,6 +34,10 @@
     padding: 8px;
     margin-left: 20%;
     margin-bottom: 5%
+}
+button:hover {
+    background-color: rgb(177, 177, 199);
+    color: black;
 }
 .Menutitle{
     color: white;
@@ -62,6 +70,9 @@ img {
   border: black;
   clip-path: circle(50%);
 }
+.Menu-card-img:hover{
+    transform: scale(0.95);
+}
 .group{
     padding-top: 5%;
     display: grid;
@@ -72,6 +83,10 @@ img {
     width: 400px;
     height: 400px;
     margin-bottom: 7%;
+}
+.img2:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.4);
 }
 .btn2{
     background-color: #08083c;
@@ -105,6 +120,12 @@ img {
     height: 150px; 
     border: 2px solid white; 
     background-color: #12122e;
+}
+.statisticsCard:hover{
+    color: black;
+    background-color: white;
+    border: 4px solid black;
+
 }
 .TextCenter{
     text-align: center;
@@ -162,6 +183,9 @@ ul li a{
     text-decoration: none;
     color: white; 
     
+}
+.Icons:hover{
+    color:blue;
 }
 @media screen and (max-width: 700px){
     .headingcenter{
