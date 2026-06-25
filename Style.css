@@ -131,6 +131,20 @@ img {
     text-align: center;
     justify-content: center;
 }
+.description-text:hover{
+    color: blueviolet;
+}
+.profile:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.4);
+}
+.profile-name{
+    font-weight: 900; 
+    color: white;
+}
+.profile-name:hover{
+    color: rgb(189, 165, 44);
+}
 .SubscribeboxImage{
     min-height: 65vh; 
     background-size: 100% 100%; 
